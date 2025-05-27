@@ -3,7 +3,7 @@
     "servers": [
       {"tag": "local", "type": "udp", "server": "192.168.8.11"},
       {"tag": "public", "type": "udp", "server": "223.5.5.5"},
-      {"tag": "foreign", "type": "udp", "server": "192.168.8.12"}
+      {"tag": "foreign", "type": "udp", "server": "8.8.8.8"}
     ],
     "rules": [
       {"clash_mode": "direct", "server": "local"},
